@@ -1,0 +1,26 @@
+public class datatype {
+    public static void main(String[] args) {
+
+        System.out.println(Byte.BYTES + "(바이트)"+Byte.SIZE+"(비트)₩t"+Byte.MIN_VALUE+"~"+Byte.MAX_VALUE);
+        System.out.println(Short.BYTES + "(바이트)"+Short.SIZE+"(비트)₩t"+Short.MIN_VALUE+"~"+Short.MAX_VALUE);
+        System.out.println(Integer.BYTES + "(바이트)"+Integer.SIZE+"(비트)₩t"+Integer.MIN_VALUE+"~"+Integer.MAX_VALUE);
+        System.out.println(Long.BYTES + "(바이트)"+Long.SIZE+"(비트)₩t"+Long.MIN_VALUE+"~"+Long.MAX_VALUE);
+        System.out.println(Character.BYTES + "(바이트)"+Character.SIZE+"(비트)₩t"+Character.MIN_VALUE+"~"+Character.MAX_VALUE);
+    }
+}
+
+//자바의 데이터타입(자료형)에 대해서 각 타입의 사이즈와 함께 설명해보시오
+//정수형의 경우 사이즈와 범위도 말해보세요
+//이 문제는 자바의 자료형 종류와 각 타입의 사이즈에 대해서 아는지를 묻는 문제이다
+
+// [1]:크게봤을때 기본형타입 참조형타입
+
+// [2]:기본형타입(Primitive Data Type) 8개
+// 정수형 byte(1byte),short(2),int(4),long(8)
+// 실수형 float(4),double(8)
+// 문자형 char(2byte) 문자한개 참고로,문자열 다루는 타입은 없다.
+// 부울형(논리형:참or거짓) boolean(1byte) true,false
+
+// [3]:참조형타입(Reference Data Type) 위 기본형에 속하지 않은 데이터형들
+// 대표적인것들 클래스(class),배열(array),인터페이스(interface),문자열(String/immutable)
+// 참조형 변수의 특징 데이터가 저장된 메모리의 주소 값을 저장하는 변수이다.
